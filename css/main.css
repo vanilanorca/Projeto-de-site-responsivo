@@ -247,9 +247,10 @@ h1, h2, h3, h4, h5, h6{
 
 @media screen and (min-width: 74em){  /* 1024/16= 64*/
     .top-content{
-        background-image: url(../images/bg_topo_1600x1374.jpg);
+        background-image: radial-gradient(closest-corner at 50% 12%, black, transparent), url(../images/bg_topo_1600x1374.jpg);
         padding-bottom: 8em;
-        background-position: center top;
+        background-size: cover,;
+        background-position: center -100px,center top;
         background-repeat: no-repeat;
         background-color: #e0d5ff;
     }
